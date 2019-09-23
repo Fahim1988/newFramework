@@ -9,6 +9,8 @@ import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 
 import com.generic.Basepage;
 
@@ -35,6 +37,17 @@ public class Helper extends Basepage{
 		return path;
 		
 	}
+	
+	public static void HoverOverWebElement(WebElement element) {
+		Actions action=new Actions(driver);
+		action.moveToElement(element).build().perform();
+		
+		
+	}
+	
+	
+	
+	
 	
 	
 	

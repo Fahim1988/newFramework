@@ -1,65 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="27041" started-at="2019-09-21T03:09:02Z" finished-at="2019-09-21T03:09:29Z">
+  <suite name="Default suite" duration-ms="5496" started-at="2019-09-23T00:10:18Z" finished-at="2019-09-23T00:10:23Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="27041" started-at="2019-09-21T03:09:02Z" finished-at="2019-09-21T03:09:29Z">
-      <class name="ebayWebApp.webAutoApp.testLoginPage">
-        <test-method status="PASS" signature="reporter()[pri:0, instance:ebayWebApp.webAutoApp.testLoginPage@6ddf90b0]" name="reporter" is-config="true" duration-ms="133" started-at="2019-09-21T03:09:02Z" finished-at="2019-09-21T03:09:02Z">
+    <test name="Default test" duration-ms="5496" started-at="2019-09-23T00:10:18Z" finished-at="2019-09-23T00:10:23Z">
+      <class name="ebayWebApp.webAutoApp.testHomePage">
+        <test-method status="PASS" signature="reporter()[pri:0, instance:ebayWebApp.webAutoApp.testHomePage@eec5a4a]" name="reporter" is-config="true" duration-ms="139" started-at="2019-09-23T00:10:17Z" finished-at="2019-09-23T00:10:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reporter -->
-        <test-method status="PASS" signature="setUP()[pri:0, instance:ebayWebApp.webAutoApp.testLoginPage@6ddf90b0]" name="setUP" is-config="true" duration-ms="4958" started-at="2019-09-21T03:09:03Z" finished-at="2019-09-21T03:09:08Z">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:ebayWebApp.webAutoApp.testHomePage@eec5a4a]" name="setUP" is-config="true" duration-ms="5263" started-at="2019-09-23T00:10:18Z" finished-at="2019-09-23T00:10:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUP -->
-        <test-method status="PASS" signature="testSearchItem(java.lang.String, java.lang.String)[pri:0, instance:ebayWebApp.webAutoApp.testLoginPage@6ddf90b0]" name="testSearchItem" duration-ms="9408" started-at="2019-09-21T03:09:08Z" data-provider="supplyData" finished-at="2019-09-21T03:09:17Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ksultana102@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Dmlnsr007]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="PASS" signature="testHoveringElement()[pri:0, instance:ebayWebApp.webAutoApp.testHomePage@eec5a4a]" name="testHoveringElement" duration-ms="206" started-at="2019-09-23T00:10:23Z" finished-at="2019-09-23T00:10:23Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testSearchItem -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:ebayWebApp.webAutoApp.testLoginPage@6ddf90b0]" name="tearDown" is-config="true" duration-ms="2320" started-at="2019-09-21T03:09:17Z" finished-at="2019-09-21T03:09:19Z">
+        </test-method> <!-- testHoveringElement -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:ebayWebApp.webAutoApp.testHomePage@eec5a4a]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-09-23T00:10:23Z" finished-at="2019-09-23T00:10:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUP()[pri:0, instance:ebayWebApp.webAutoApp.testLoginPage@6ddf90b0]" name="setUP" is-config="true" duration-ms="4384" started-at="2019-09-21T03:09:19Z" finished-at="2019-09-21T03:09:24Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUP -->
-        <test-method status="PASS" signature="testSearchItem(java.lang.String, java.lang.String)[pri:0, instance:ebayWebApp.webAutoApp.testLoginPage@6ddf90b0]" name="testSearchItem" duration-ms="5400" started-at="2019-09-21T03:09:24Z" data-provider="supplyData" finished-at="2019-09-21T03:09:29Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[abcd@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[asdehruwr]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSearchItem -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:ebayWebApp.webAutoApp.testLoginPage@6ddf90b0]" name="tearDown" is-config="true" duration-ms="67" started-at="2019-09-21T03:09:29Z" finished-at="2019-09-21T03:09:29Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- ebayWebApp.webAutoApp.testLoginPage -->
+      </class> <!-- ebayWebApp.webAutoApp.testHomePage -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
