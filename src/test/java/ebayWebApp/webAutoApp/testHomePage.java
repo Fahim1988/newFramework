@@ -23,10 +23,13 @@ public class testHomePage extends Basepage{
 	}
 	@Test
 	public void testSearchItem() {
-		
 		home.searchItem();
-		
+		}
+	@Test
+	public void testHoveringElement() {
+		home.hoveringElement();
 	}
+	
 	@AfterMethod
 	public void tearDown() {
 		//driver.close();
